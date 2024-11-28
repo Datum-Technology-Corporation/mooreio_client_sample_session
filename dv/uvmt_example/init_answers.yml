@@ -1,0 +1,18 @@
+vendor: acme
+name: uvmt_example
+full_name: Example Test Bench
+version: "3.2.1"
+ip_type: dv_tb
+has_docs_directory: true
+docs_directory: docs
+has_scripts_directory: false
+has_examples_directory: false
+dut_type: ip
+dut_name: example_design
+dut_version: "1.0.0"
+hdl_src_directory: src
+hdl_src_sub_directories: ["."]
+hdl_top_sv_files: ["uvmt_example_pkg.sv"]
+hdl_top: ["uvmt_example_tb"]
+hdl_tests_path: "tests"
+hdl_tests_name_template: "uvmt_example_{{ name }}_test_c"

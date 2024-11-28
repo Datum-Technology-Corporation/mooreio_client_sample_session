@@ -1,0 +1,10 @@
+vendor: acme
+name: example_design
+full_name: Example Design
+version: "1.0.0"
+ip_type: ss
+has_docs_directory: false
+has_scripts_directory: false
+has_examples_directory: false
+hdl_src_directory: "."
+hdl_top_sv_files: ["example_design_top.sv"]

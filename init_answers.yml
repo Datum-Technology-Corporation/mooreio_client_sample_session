@@ -1,0 +1,6 @@
+name: mooreio_client_sample_session
+full_name: Moore.io Client Sample Session
+ip_directories: [dv, rtl]
+sim_directory: sim
+has_docs: true
+docs_directory: docs
